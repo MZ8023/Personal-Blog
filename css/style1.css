@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+*{margin:0px;padding:0px;}
+body{background-color:#CCFFFF;}/*背景颜色*/
+#main{width:1024px;margin:auto;}/*标题下主窗体整体大小*/
+#top{height:100px;background-color:#6666FF;min-width:1024px;}/*banner*/
+#head{width:1024px;height:100px;position:relative;margin:auto;}
+#menu{position:absolute;height:100px;}
+#menu span{font-family:'����';-webkit-transition:border-radius 3s,background-color 1s,color 1s,width 1s;height:100px;line-height:100px;display:block;float:left;width:120px;font-size:22px;font-weight:bold;color:#FFFFFF;cursor:pointer;text-align:center;}
+#menu span:hover{text-shadow:2px 2px 2px #555;background-color:#6699FF;border-radius:1000px;color:#000;width:100px;}
+
+#suotu{float:right;margin:10px 15px 10px 0px;}
+#suozi{float:left;height:400px;width:500px;}
+
+#zhongtu{float:left;}
+#zhongzi{float:right;height:400px;width:500px;}
